@@ -1,0 +1,73 @@
+{
+    "productos": [
+      {
+        "nombre": "Grand Theft Auto V - Xbox One",
+        "precio": "899",
+        "id": "gtav_xbox",
+        "imagen":""
+      },
+      {
+        "nombre": "Marvel's Spider-Man - PlayStation 4",
+        "precio": "999",
+        "id": "spider_play",
+        "imagen":""
+      },
+      {
+        "nombre": "Rainbow Six Siege - Xbox One",
+        "precio": "599",
+        "id": "rainbow_xbox",
+        "imagen":""
+      },
+      {
+        "nombre": "F1 23 - Xbox Series X/One",
+        "precio": "1299",
+        "id": "f1_xbox",
+        "imagen":""
+      },
+      {
+        "nombre": "Red Dead Redemption 2 - PlayStation 4",
+        "precio": "999",
+        "id": "red_play",
+        "imagen":""
+      },
+      {
+        "nombre": "Battlefield 2042 - Xbox One",
+        "precio": "399",
+        "id": "battle_play",
+        "imagen":""
+      },
+      {
+        "nombre": "Cyberpunk 2077 - Xbox One",
+        "precio": "899",
+        "id": "cyber_xbox",
+        "categoria": "Aventuras",
+        "descripcion": "es un videojuego perteneciente al género ARPG desarrollado y publicado por CD Projekt",
+        "imagen":""
+      },
+      {
+        "nombre": "FIFA 23 - Playstation 4",
+        "precio": "799",
+        "id": "fifa_play",
+        "imagen":""
+      },
+      {
+        "nombre": "Hogwarts Legacy - Xbox Series X/One",
+        "precio": "999",
+        "id": "hogwarts_xbox",
+        "imagen":""
+      },
+      {
+        "nombre": "Forza Motorsport 5- Xbox One",
+        "precio": "499",
+        "id": "forza_xbox",
+        "imagen":""
+      },
+      {
+        "nombre": "Minecraft - Playstation 4",
+        "precio": "299",
+        "id": "mine_play",
+        "imagen":""
+      }
+      
+    ]
+  }

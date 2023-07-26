@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuenta | JuanPaGames</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+   
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="RedStore_Img/images/logo2.png" >
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="">Productos</a></li>
+                    <li><a href="">Cuenta</a></li>
+                </ul>
+            </nav>
+            <img src="RedStore_Img/images/cart.png" width="30px" height="30px">
+            <img src="RedStore_Img/images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+        
+    </div>
+   
+<!------parte de cuenta---->
+
+<div class="account-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <img src="RedStore_Img/images/SPIDERMANPRIN.png" width="100%">
+            </div>
+
+            <div class="col-2">
+                <div class="form-container">
+                    <div class="form-btn">
+                        <span onclick="login()">Iniciar Sesión</span>
+                        <span onclick="register()">Registro</span>
+                        <hr id="Indicator">
+                    </div>
+                    
+                    <form id="LoginForm">
+                        <input type="text" placeholder="Usuario">
+                        <input type="password" placeholder="Contraseña">
+                        <button type="submit" class="btn">Entrar</button>
+                        <a href="">Perdí Mi Contraseña</a>
+                    </form>
+
+                    <form id="RegForm">
+                        <input type="text" placeholder="Usuario">
+                        <input type="email" placeholder="Correo Electrónico">
+                        <input type="password" placeholder="Contraseña">
+                        <button type="submit" class="btn">Registro</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+         <!------footer---->
+
+         <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Descarga nuestra App</h3>
+                        <p>Descárgala en App Store y Play Store</p>
+                        <div class="app-logo">
+                            <img src="RedStore_Img/images/app-store.png">
+                            <img src="RedStore_Img/images/play-store.png">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="RedStore_Img/images/logo3.png">
+                        <p>Queremos que tengas tus juegos favoritos al menor precio.</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Links Importantes</h3>
+                        <ul>
+                            <li>Política de Devolución</li>
+                            <li>Cupones</li>
+                            <li>Sé Nuestro Patrocinador</li>
+                            <li>Términos y Condiciones</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>¡Síguenos!</h3>
+                        <ul>
+                            <li>Instagram</li>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2023 - JuanPaGames</p>
+            </div>
+         </div>
+
+         <script src="javascript.js"></script>
+
+<script>
+
+
+var LoginForm = document.getElementById("LoginForm");
+var RegForm = document.getElementById("RegForm");
+var Indicator = document.getElementById("Indicator");
+
+function register(){
+    RegForm.style.transform = "translateX(0px)";
+    LoginForm.style.transform = "translateX(0px)";
+    Indicator.style.transform = "translateX(100px)";
+    
+}
+
+function login(){
+    RegForm.style.transform = "translateX(300px)";
+    LoginForm.style.transform = "translateX(300px)";
+    Indicator.style.transform = "translateX(0px)";
+}
+
+</script>
+
+
+</body>
+
+</html>
